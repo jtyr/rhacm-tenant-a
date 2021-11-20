@@ -20,3 +20,7 @@ spec:
   packageOverrides:
     - packageName: chartmuseum
       packageAlias: chartmuseum
+      packageOverrides:
+        - path: spec
+          value:
+            securityContext: null
