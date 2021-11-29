@@ -25,3 +25,4 @@ spec:
           value:
             securityContext:
               enabled: false
+            replicaCount: 5
